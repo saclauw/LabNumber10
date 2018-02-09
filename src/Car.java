@@ -75,7 +75,7 @@ public class Car {
 	public String toString() {
 
 		
-		return String.format("%1$-15s %2$-10s %3$-6d $%4$-10.2f", make, model, year, price);
+		return String.format("%1$-15s %2$-10s %3$-6d $%4$-,10.2f", make, model, year, price);
 	}
 	
 	

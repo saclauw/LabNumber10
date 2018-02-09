@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-/*Steven Clauw 2-5-17
+/*
+ * @author Steven Clauw
  * LabNumber10
  * 
  */

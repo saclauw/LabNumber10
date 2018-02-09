@@ -23,7 +23,7 @@ public UsedCar(String make, String model, int year, double price, double mileage
 	@Override
 	public String toString() {
 
-		return String.format("%1$-15s %2$-10s %3$-6d $%04$-10.2f (used) %5$-10.2fmiles", make, model, year, price, mileage);
+		return String.format("%1$-15s %2$-10s %3$-6d $%04$-,10.2f (used) %5$-10.2fmiles", make, model, year, price, mileage);
 	}
 	
 	

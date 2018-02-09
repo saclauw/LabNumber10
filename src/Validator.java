@@ -12,6 +12,13 @@ public class Validator {
 		return s;
 	}
 
+	/**
+	 * This method is used to simply get input from a user and validate that it is an integer
+	 * 
+	 * @param sc Scanner object for taking user input
+	 * @param String prompt for user to enter any given integer
+	 * @return integer value typed in by user
+	 */
 	public static int getInt(Scanner sc, String prompt) {
 		int i = 0;
 		boolean isValid = false;
@@ -73,26 +80,26 @@ public class Validator {
 		}
 		return d;
 
-//	public static double getDouble(Scanner sc, Scanner scan, String prompt) {
-//		double d = 0;
-//		double a = scan.nextDouble();
-//		double b = scan.nextDouble();
-//		BigDecimal a1 = new BigDecimal(a);
+//		public static double getDouble(Scanner sc, Scanner scan, String prompt) {
+//	double d = 0;
+//	double a = scan.nextDouble();
+//	double b = scan.nextDouble();
+//	BigDecimal a1 = new BigDecimal(a);
 //		BigDecimal b2 = new BigDecimal(b);
 //		boolean isValid = false;
 //		while (isValid == false) {
-//		}
-//			System.out.print(prompt);
-//			if (sc.hasNextDouble()) {
-//				d = sc.nextDouble();
-//				isValid = true;
-//			} else {
-//				System.out.println("Error! Invalid decimal value. Try again.");
+//	}
+//		System.out.print(prompt);
+//		if (sc.hasNextDouble()) {
+//			d = sc.nextDouble();
+//			isValid = true;
+//		} else {
+//			System.out.println("Error! Invalid decimal value. Try again.");
 //			}
 //			sc.nextLine(); // discard any other data entered on the line
 //		}
 //		return d;
-		
+//		
 	
 
 	}
